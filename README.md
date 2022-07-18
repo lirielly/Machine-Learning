@@ -6,6 +6,7 @@ The machine learning task, and inparticular the task of classification, can be a
 ## Task
 For each pair i of methods below (two methods A and B are mentioned) do the following:
 + Define two Python functions GAi and GBi that generate artificial classification datasets such that GAi tends to generate a dataset where method Ai is (significantly) better than method Bi, and GBi tends to generate a dataset where method Bi is significantly better than method Ai.
+
 **Notes**: 
     - “Tends to” means “more often than not”. This can be measured by repeating each experiment 10 times. 
     - Methods are compared using AUC (area under the ROC curve). 
